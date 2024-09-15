@@ -56,7 +56,7 @@ const Contact = () => {
         <div className='contact-container'>
           <h3 className='head-text'>Let's Talk</h3>
           <p className='text-lg text-white-600 mt-3'>
-            Whether you are looking to build a new website, improve your existing platform, or bring a unique project to life, I'm here to help.
+            If you are building something or just want to chat about anything tech(AI, startups, new technologies), please reach out.
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col space-y-7'>
@@ -65,7 +65,7 @@ const Contact = () => {
               <input type="text" name="name" value={form.name} onChange={handleChange} required className='field-input' placeholder="Saksham Diwan" />
             </label>
             <label className='space-y-3'>
-              <span className='field-label'>Email</span>
+              <span className='field-label'>Your Email</span>
               <input type="email" name="email" value={form.email} onChange={handleChange} required className='field-input' placeholder="sd966@cornell.edu" />
             </label>
             <label className='space-y-3'>

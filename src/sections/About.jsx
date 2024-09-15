@@ -20,7 +20,7 @@ const About = () => {
             <img src="./assets/grid1.png" alt="grid-1" className='w-full sm:h-[276px] h-fit object-contain' />
             <div>
               <p className='grid-headtext'>Hi, I'm Saksham</p>
-              <p className='grid-subtext'>With 12 years of experience, I have honed my skills in fullstack development with a focus on animated 3d websites.</p>
+              <p className='grid-subtext'>I'm always learning new technologies and languages. Over the years, I have honed my skills in fullstack development and machine learning.</p>
             </div>
           </div>
         </div>
@@ -29,11 +29,11 @@ const About = () => {
             <img src="./assets/grid2.png" alt="grid-2" className='w-full sm:w-[276px] h-fit object-contain' />
             <div>
               <p className='grid-headtext'>Tech Stack</p>
-              <p className='grid-subtext'>I specialize in JavaScript/TypeScript with a focus on React and Next.js ecosystems.</p>
+              <p className='grid-subtext'>I specialize in Python and JavaScript/TypeScript(React, Next.js, Node.js) with interests in full stack development and machine learning.</p>
             </div>
           </div>
         </div>
-        <div className='col-span-1 xl:row-span-4'>
+        {/* <div className='col-span-1 xl:row-span-4'>
           <div className='grid-container'>
             <div className='rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center'>
               <Globe 
@@ -48,8 +48,8 @@ const About = () => {
               />
             </div>
             <div>
-              <p className='grid-headtext'>I work remotely across most timezones</p>
-              <p className='grid-subtext'>I am based in America, with remote work available.</p>
+              <p className='grid-headtext'></p>
+              <p className='grid-subtext'>I am based in America, working in the Eastern Time Zone.</p>
               <a href="#contact">
                 <Button name="Contact Me" isBeam containerClass='w-full mt-10'/>
               </a>
@@ -76,7 +76,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
