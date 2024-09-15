@@ -8,8 +8,8 @@ import { useGLTF, useAnimations, useVideoTexture } from '@react-three/drei'
 const DemoComputer = (props) => {
 
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/models/computer.glb')
-  const txt = useVideoTexture(props.texture ? props.texture : '/textures/project/project1.mp4')
+  const { nodes, materials, animations } = useGLTF('./models/computer.glb')
+  const txt = useVideoTexture(props.texture ? props.texture : './textures/project/project1.mp4')
 
   useEffect(() => {
     if (txt) {
@@ -1005,5 +1005,5 @@ const DemoComputer = (props) => {
   )
 }
 
-useGLTF.preload('/models/computer.glb')
+useGLTF.preload('./models/computer.glb')
 export default DemoComputer

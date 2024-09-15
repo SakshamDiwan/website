@@ -10,9 +10,9 @@ import React, { useRef } from 'react'
 import { useGLTF, useTexture } from '@react-three/drei'
 
 const HackerRoom = (props) => {
-  const { nodes, materials } = useGLTF('/models/hacker_room.glb')
-  const monitorTexture = useTexture('textures/desk/monitor.png')
-  const screenTexture = useTexture('textures/desk/screen.png')
+  const { nodes, materials } = useGLTF('./models/hacker_room.glb')
+  const monitorTexture = useTexture('./textures/desk/monitor.png')
+  const screenTexture = useTexture('./textures/desk/screen.png')
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -106,7 +106,7 @@ const HackerRoom = (props) => {
   )
 }
 
-useGLTF.preload('/models/hacker_room.glb')
-useTexture.preload('textures/desk/monitor.png')
-useTexture.preload('textures/desk/screen.png')
+useGLTF.preload('./models/hacker_room.glb')
+useTexture.preload('./textures/desk/monitor.png')
+useTexture.preload('./textures/desk/screen.png')
 export default HackerRoom;

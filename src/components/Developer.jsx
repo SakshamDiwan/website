@@ -8,9 +8,9 @@ import { useAnimations, useFBX, useGLTF } from '@react-three/drei'
 const Developer = (props) => {
 
   const group = useRef()
-  const { nodes, materials } = useGLTF('/models/animations/developer.glb')
+  const { nodes, materials } = useGLTF('./models/animations/developer.glb')
 
-  const { animations: saluteAnimation } = useFBX('/models/animations/salute.fbx');
+  const { animations: saluteAnimation } = useFBX('./models/animations/salute.fbx');
 
   saluteAnimation[0].name = 'salute';
   const { actions } = useAnimations([ saluteAnimation[0]], group)
@@ -84,5 +84,5 @@ const Developer = (props) => {
   )
 }
 
-useGLTF.preload('/models/animations/developer.glb')
+useGLTF.preload('./models/animations/developer.glb')
 export default Developer
