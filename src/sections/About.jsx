@@ -20,7 +20,7 @@ const About = () => {
             <img src="./assets/grid1.png" alt="grid-1" className='w-full sm:h-[276px] h-fit object-contain' />
             <div>
               <p className='grid-headtext'>Hi, I'm Saksham</p>
-              <p className='grid-subtext'>I'm always learning new technologies and languages. Over the years, I have honed my skills in fullstack development and machine learning.</p>
+              <p className='grid-subtext'>I'm a junior majoring in Computer Science at Cornell. I'm always learning and experimenting with new technologies and languages. I am interested in full-stack development and machine learning.</p>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@ const About = () => {
             <img src="./assets/grid2.png" alt="grid-2" className='w-full sm:w-[276px] h-fit object-contain' />
             <div>
               <p className='grid-headtext'>Tech Stack</p>
-              <p className='grid-subtext'>I specialize in Python and JavaScript/TypeScript(React, Next.js, Node.js) with interests in full stack development and machine learning.</p>
+              <p className='grid-subtext'>I specialize in Python and JavaScript/TypeScript(React, Next.js, Node.js). I can also code in C, C++, OCaml and Java if the problem demands it.</p>
             </div>
           </div>
         </div>
