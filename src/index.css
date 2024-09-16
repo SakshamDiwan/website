@@ -73,6 +73,11 @@ body {
     @apply text-[#afb0b6] text-base font-generalsans;
   }
 
+  .mask-image {
+    -webkit-mask-image: radial-gradient(circle, white 15%, transparent 100%);
+    mask-image: radial-gradient(circle, white 15%, transparent 100%);
+  }
+
   .copy-container {
     @apply cursor-pointer flex justify-center items-center gap-2;
   }
