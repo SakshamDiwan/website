@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Orange base color for OCaml -->
+  <rect width="256" height="256" fill="#F08000"></rect>
+
+  <!-- OCaml logo shape - using circles and paths to represent its distinct geometric style -->
+  <circle cx="128" cy="128" r="96" fill="#FFF"></circle>
+  
+  <!-- OCaml signature "tail" or geometric style, emulating functional paradigm and flow -->
+  <path d="M80 96 L128 128 L80 160 Z" fill="#F08000"></path>
+  <path d="M176 96 L128 128 L176 160 Z" fill="#F08000"></path>
+</svg>

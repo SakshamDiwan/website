@@ -31,16 +31,16 @@ const Projects = () => {
           <div className="absolute top-0 right-0">
             <img src={currentProject.spotlight} alt="spotlight" className='w-full h-96 object-cover rounded-xl'/>
           </div>
-          <div className='p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg' style={currentProject.logoStyle}>
+          {/* <div className='p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg' style={currentProject.logoStyle}>
             <img src={currentProject.logo} alt="logo" className='w-10 h-10 shadow-sm'/>
-          </div>
+          </div> */}
           <div className='flex flex-col gap-5 text-white-600 my-5'>
             <p className='text-white text-2xl font-semibold animatedText'>{currentProject.title}</p>
             <p className='animatedText'>{currentProject.desc}</p>
             <p className='animatedText'>{currentProject.subdesc}</p>
           </div>
-          <div className='flex items-center justify-between flex-wrap gap-5'>
-            <div className='flex items-center gap-3'>
+          <div className='flex items-center justify-end gap-5'>
+            {/* <div className='flex items-center gap-3'>
               {currentProject.tags.map((tag, index) => {
                 return (
                   <div key={index} className='tech-logo'>
@@ -48,8 +48,8 @@ const Projects = () => {
                   </div>
                 )
               })}
-            </div>
-            <a className='flex items-center gap-2 cursor-pointer text-white-600' href={currentProject.href} target="_blank" rel='noreferrer'>
+            </div> */}
+            <a className='flex items-center gap-2 cursor-pointer text-white-600' href={currentProject.href} target="_blank" rel='noreferrer' style={{ zIndex: 10, position: 'relative' }}>
               <p>Link</p>
               <img src="./assets/arrow-up.png" alt="arrow" className='w-3 h-3'/>
             </a>
