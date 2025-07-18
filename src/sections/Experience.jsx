@@ -24,7 +24,7 @@ const Experience = () => {
             </Canvas>
           </div>
           <div className='work-content'>
-            <div className='sm:py-10 py-5 sm:px-5 px-2.5'>
+            <div className='sm:py-10 py-5 sm:px-5 px-2.5 h-screen max-h-screen overflow-y-auto'>
               {workExperiences.map((experience) => {
                 return (
                   <div key={experience.id} className='work-content_container group'>

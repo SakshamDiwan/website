@@ -59,82 +59,6 @@ export const myProjects = [
       },
     ],
   },
-  // {
-  //   title: 'LiveDoc - Real-Time Google Docs Clone',
-  //   desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-  //   subdesc:
-  //     'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-  //   href: 'https://www.google.com/',
-  //   texture: './textures/project/project2.mp4',
-  //   logo: './assets/project-logo2.png',
-  //   logoStyle: {
-  //     backgroundColor: '#13202F',
-  //     border: '0.2px solid #17293E',
-  //     boxShadow: '0px 0px 60px 0px #2F6DB54D',
-  //   },
-  //   spotlight: './assets/spotlight2.png',
-  //   tags: [
-  //     {
-  //       id: 1,
-  //       name: 'React.js',
-  //       path: './assets/react.svg',
-  //     },
-  //     {
-  //       id: 2,
-  //       name: 'TailwindCSS',
-  //       path: './assets/tailwindcss.png',
-  //     },
-  //     {
-  //       id: 3,
-  //       name: 'TypeScript',
-  //       path: './assets/typescript.png',
-  //     },
-  //     {
-  //       id: 4,
-  //       name: 'Framer Motion',
-  //       path: './assets/framer.png',
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: 'CarePulse - Health Management System',
-  //   desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-  //   subdesc:
-  //     'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-  //   href: 'https://www.google.com/',
-  //   texture: './textures/project/project3.mp4',
-  //   logo: './assets/project-logo3.png',
-  //   logoStyle: {
-  //     backgroundColor: '#60f5a1',
-  //     background:
-  //       'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-  //     border: '0.2px solid rgba(208, 213, 221, 1)',
-  //     boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-  //   },
-  //   spotlight: './assets/spotlight3.png',
-  //   tags: [
-  //     {
-  //       id: 1,
-  //       name: 'React.js',
-  //       path: './assets/react.svg',
-  //     },
-  //     {
-  //       id: 2,
-  //       name: 'TailwindCSS',
-  //       path: './assets/tailwindcss.png',
-  //     },
-  //     {
-  //       id: 3,
-  //       name: 'TypeScript',
-  //       path: './assets/typescript.png',
-  //     },
-  //     {
-  //       id: 4,
-  //       name: 'Framer Motion',
-  //       path: './assets/framer.png',
-  //     },
-  //   ],
-  // },
   {
     title: 'TriCaml - Image Manipulation Tool',
     desc: 'TriCaml is a image manipulation tool that allows users to manipulate images in various ways, such as brightening/dimming, flipping, applying 3d effects and many more with ease. Users can upload images, select their desired operations and receive the transformed image.',
@@ -210,6 +134,24 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
+    name: 'Meta',
+    pos: 'Software Engineer Intern',
+    duration: 'May 2025 - Aug 2025',
+    title: "Working on scaling the Ads Manager Platform.",
+    icon: './assets/meta.svg',
+    animation: 'salute',
+  },
+  {
+    id: 2,
+    name: 'Katalyst AI',
+    pos: 'Software Engineer Intern',
+    duration: 'Dec 2024 - Jan 2025',
+    title: "Built both the frontend and the backend of an AI agent that lets users query employee data from Apollo using natural language using TypeScript, React, Tailwind, and the Vercel AI SDK.",
+    icon: './assets/katalyst.svg',
+    animation: 'clapping',
+  },
+  {
+    id: 3,
     name: '121 Health',
     pos: 'Software Engineer Intern',
     duration: 'Jun 2024 - Aug 2024',
@@ -218,7 +160,7 @@ export const workExperiences = [
     animation: 'victory',
   },
   {
-    id: 2,
+    id: 4,
     name: 'Signal Science Lab',
     pos: 'Undergraduate Research Intern',
     duration: 'Mar 2024 - Present',
@@ -227,11 +169,11 @@ export const workExperiences = [
     animation: 'clapping',
   },
   {
-    id: 3,
+    id: 5,
     name: 'Filmify (Student Startup)',
     pos: 'Software Engineer',
     duration: 'Mar 2024 - Present',
-    title: "Developing the onboarding flow for a film crew management platform using Next.js, Tailwind, and TypeScript. Collaborating with engineers to build a PostgreSQL backend with Drizzle ORM, Hono, and Docker. Currently working on the project workspace feature to streamline production management.",
+    title: "Built a full-stack production compliance platform with Next.js, TypeScript, Tailwind, and Supabase. Added RAG-based chat with callsheets, AI-powered PDF parsing, role-based access, and real-time email alerts.",
     icon: './assets/filmify.svg',
     animation: 'salute',
   },
